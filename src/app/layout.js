@@ -23,7 +23,10 @@ export default function RootLayout({ children }) {
           {/* Navbar */}
           <Navbar />
           {/* SearchBox */}
-          <SearchBox/>
+          <Suspense>
+            <SearchBox/>
+          </Suspense>
+          
 
           {children}
         </Providers>
