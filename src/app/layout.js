@@ -28,6 +28,8 @@ export default function RootLayout({ children }) {
             <SearchBox/>
           </Suspense>
           
+          
+          
 
           {children}
         </Providers>
