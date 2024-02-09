@@ -1,7 +1,7 @@
 'use client'
 import React, { useState } from 'react'
 import { useRouter } from 'next/navigation';
-import { Suspense } from 'react';
+// import { Suspense } from 'react';
 // import { useSearchParams } from 'next/navigation';
 export default function SearchBox() {
   const [search, setSearch] = useState();
